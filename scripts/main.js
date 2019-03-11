@@ -33,7 +33,7 @@ function background() {
   var hours = new Date().getHours();
 
 	//gebruik het onderstaande om te testen
-	// hours = 0;
+	hours = 0;
 
   if (hours >= 0 && hours < 6) {
   	document.body.className = "night";
